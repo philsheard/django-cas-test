@@ -1,0 +1,11 @@
+certifi==2018.1.18
+chardet==3.0.4
+Django==1.11
+django-cas-ng==3.5.8
+django-mama-cas==2.3.0
+idna==2.6
+python-cas==1.2.0
+pytz==2017.3
+requests==2.18.4
+six==1.11.0
+urllib3==1.22
