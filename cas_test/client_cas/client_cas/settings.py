@@ -132,3 +132,5 @@ INSTALLED_APPS += [
 CAS_SERVER_URL = "http://127.0.0.1:8000/"
 # CAS_LOGIN_MSG = "Message is being passed"
 # CAS_LOGGED_MSG = "Bro, you're totally logged in already"
+
+SESSION_COOKIE_NAME = 'sessionid_client_cas'
