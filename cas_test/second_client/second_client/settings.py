@@ -127,3 +127,5 @@ AUTHENTICATION_BACKENDS += (
 )
 INSTALLED_APPS += ['django_cas_ng', ]
 CAS_SERVER_URL = "http://127.0.0.1:8000/"
+
+SESSION_COOKIE_NAME = 'sessionid_second_client'

@@ -126,9 +126,11 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 INSTALLED_APPS += [
-    'django_cas_ng', 
+    'django_cas_ng',
     'frontend'
     ]
 CAS_SERVER_URL = "http://127.0.0.1:8000/"
 # CAS_LOGIN_MSG = "Message is being passed"
 # CAS_LOGGED_MSG = "Bro, you're totally logged in already"
+
+SESSION_COOKIE_NAME = 'sessionid_client_cas'
