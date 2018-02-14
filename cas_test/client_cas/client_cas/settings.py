@@ -126,7 +126,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 INSTALLED_APPS += [
-    'django_cas_ng', 
+    'django_cas_ng',
     'frontend'
     ]
 CAS_SERVER_URL = "http://127.0.0.1:8000/"
