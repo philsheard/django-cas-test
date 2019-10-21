@@ -1,6 +1,6 @@
 certifi==2018.1.18
 chardet==3.0.4
-Django==1.11
+Django==1.11.23
 django-cas-ng==3.5.8
 django-mama-cas==2.3.0
 idna==2.6
